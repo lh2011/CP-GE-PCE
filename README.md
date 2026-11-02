@@ -4,6 +4,8 @@ Conformalized gradient-enhanced polynomial chaos expansion for electromagnetic s
 This repository contains the code for the masters thesis "Machine Learning with Polynomial Chaos Expansion for Electromagnetic Simulations" conducted at TU Darmstadt in coorporation with the Centrum Wiskunde & Informatica, Amsterdam. Furthermore, it also contains the relevant data that were computed and used in the thesis for figures and tables.
 the simulation is based on AMIGA - A Magnetic Isogeometric Analysis Framework for Electric Motor Design. The required version is automatically downloaded.
 
+The data used for the thesis is provided in 10.5281/zenodo.23895959. Extract data.zip into the repository root.
+
 To reproduce the experiments carried out in the thesis, the following files can be run as is:
  - fieldPlots.m to generate the field plots
  - conformalPrediction.py to recreate the conformalization experiments
